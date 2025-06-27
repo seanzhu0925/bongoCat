@@ -10,6 +10,7 @@ import isURL from 'is-url'
 import { onMounted } from 'vue'
 import { RouterView } from 'vue-router'
 
+import { useAudioPlayback } from './composables/useAudioPlayback'
 import { useTauriListen } from './composables/useTauriListen'
 import { useThemeVars } from './composables/useThemeVars'
 import { useWindowState } from './composables/useWindowState'
@@ -43,6 +44,7 @@ onMounted(async () => {
   catStore.init()
 
   restoreState()
+  useAudioPlayback()
 })
 
 useTauriListen(LISTEN_KEY.SHOW_WINDOW, ({ payload }) => {
