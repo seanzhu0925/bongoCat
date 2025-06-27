@@ -1,20 +1,20 @@
-![BongoCat](https://socialify.git.ci/ayangweb/BongoCat/image?custom_description=&description=1&font=Source+Code+Pro&forks=1&issues=1&logo=https%3A%2F%2Fgithub.com%2Fayangweb%2FBongoCat%2Fblob%2Fmaster%2Fsrc-tauri%2Fassets%2Flogo-mac.png%3Fraw%3Dtrue&name=1&owner=1&pattern=Floating+Cogs&pulls=1&stargazers=1&theme=Auto)
+![BongoCat](https://socialify.git.ci/seanzhu/BongoCat/image?custom_description=&description=1&font=Source+Code+Pro&forks=1&issues=1&logo=https%3A%2F%2Fgithub.com%2Fayangweb%2FBongoCat%2Fblob%2Fmaster%2Fsrc-tauri%2Fassets%2Flogo-mac.png%3Fraw%3Dtrue&name=1&owner=1&pattern=Floating+Cogs&pulls=1&stargazers=1&theme=Auto)
 
 <div align="center">
   <div>
-    <a href="https://github.com/ayangweb/BongoCat/releases">
+    <a href="https://github.com/seanzhu/BongoCat/releases">
       <img
         alt="Windows"
         src="https://img.shields.io/badge/-Windows-blue?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB0PSIxNzI2MzA1OTcxMDA2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjE1NDgiIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4Ij48cGF0aCBkPSJNNTI3LjI3NTU1MTYxIDk2Ljk3MTAzMDEzdjM3My45OTIxMDY2N2g0OTQuNTEzNjE5NzVWMTUuMDI2NzU3NTN6TTUyNy4yNzU1NTE2MSA5MjguMzIzNTA4MTVsNDk0LjUxMzYxOTc1IDgwLjUyMDI4MDQ5di00NTUuNjc3NDcxNjFoLTQ5NC41MTM2MTk3NXpNNC42NzA0NTEzNiA0NzAuODMzNjgyOTdINDIyLjY3Njg1OTI1VjExMC41NjM2ODE5N2wtNDE4LjAwNjQwNzg5IDY5LjI1Nzc5NzUzek00LjY3MDQ1MTM2IDg0Ni43Njc1OTcwM0w0MjIuNjc2ODU5MjUgOTE0Ljg2MDMxMDEzVjU1My4xNjYzMTcwM0g0LjY3MDQ1MTM2eiIgcC1pZD0iMTU0OSIgZmlsbD0iI2ZmZmZmZiI+PC9wYXRoPjwvc3ZnPg=="
       />
     </a>
-    <a href="https://github.com/ayangweb/BongoCat/releases">
+    <a href="https://github.com/seanzhu/BongoCat/releases">
       <img
         alt="MacOS"
         src="https://img.shields.io/badge/-MacOS-black?style=flat-square&logo=apple&logoColor=white"
       />
     </a>
-    <a href="https://github.com/ayangweb/BongoCat/releases">
+    <a href="https://github.com/seanzhu/BongoCat/releases">
       <img
         alt="Linux"
         src="https://img.shields.io/badge/-Linux-yellow?style=flat-square&logo=linux&logoColor=white"
@@ -25,17 +25,17 @@
   <p>
     <a href="./LICENSE">
       <img
-        src="https://img.shields.io/github/license/ayangweb/BongoCat?style=flat-square"
+        src="https://img.shields.io/github/license/seanzhu/BongoCat?style=flat-square"
       />
     </a>
-    <a href="https://github.com/ayangweb/BongoCat/releases/latest">
+    <a href="https://github.com/seanzhu/BongoCat/releases/latest">
       <img
-        src="https://img.shields.io/github/package-json/v/ayangweb/BongoCat?style=flat-square"
+        src="https://img.shields.io/github/package-json/v/seanzhu/BongoCat?style=flat-square"
       />
     </a>
-    <a href="https://github.com/ayangweb/BongoCat/releases">
+    <a href="https://github.com/seanzhu/BongoCat/releases">
       <img
-        src="https://img.shields.io/github/downloads/ayangweb/BongoCat/total?style=flat-square"
+        src="https://img.shields.io/github/downloads/seanzhu/BongoCat/total?style=flat-square"
       />
     </a>
   </p>
@@ -64,7 +64,7 @@
 ## 下载
 
 - [夸克网盘](https://pan.quark.cn/s/70f2f2663ce1)
-- [GitHub Releases](https://github.com/ayangweb/BongoCat/releases)
+- [GitHub Releases](https://github.com/seanzhu/BongoCat/releases)
 
 > 不确定下载哪一个？请查阅[下载指南](.github/DOWNLOAD_GUIDE.md)。
 
@@ -80,7 +80,7 @@
 
 你可以在这个仓库中探索、下载更多猫咪模型，或提交你的创作，与大家一起分享：
 
-📦 [Awesome-BongoCat](https://github.com/ayangweb/Awesome-BongoCat)
+📦 [Awesome-BongoCat](https://github.com/seanzhu/Awesome-BongoCat)
 
 ## 社区交流
 
@@ -96,16 +96,16 @@
 
 感谢大家为 BongoCat 做出的宝贵贡献！如果你也希望为 BongoCat 做出贡献，请查阅[贡献指南](.github/CONTRIBUTING.md)。
 
-<a href="https://github.com/ayangweb/BongoCat/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ayangweb/BongoCat" />
+<a href="https://github.com/seanzhu/BongoCat/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=seanzhu/BongoCat" />
 </a>
 
 ## 历史星标
 
-<a href="https://www.star-history.com/#ayangweb/BongoCat&Date">
+<a href="https://www.star-history.com/#seanzhu/BongoCat&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ayangweb/BongoCat&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ayangweb/BongoCat&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ayangweb/BongoCat&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=seanzhu/BongoCat&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=seanzhu/BongoCat&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=seanzhu/BongoCat&type=Date" />
  </picture>
 </a>
