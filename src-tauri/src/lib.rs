@@ -2,11 +2,12 @@ mod core;
 mod utils;
 
 use core::{device, prevent_default, setup};
-use tauri::{Manager, WindowEvent, generate_handler};
+use tauri::{Emitter, Manager, WindowEvent, generate_handler};
 use tauri_plugin_autostart::MacosLauncher;
 use tauri_plugin_custom_window::{
     MAIN_WINDOW_LABEL, PREFERENCE_WINDOW_LABEL, show_preference_window,
 };
+use tauri_plugin_global_shortcut::GlobalShortcutExt;
 use utils::fs_extra::copy_dir;
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
@@ -22,6 +23,8 @@ pub fn run() {
             setup::default(&app_handle, main_window.clone(), preference_window.clone());
 
             device::start_listening(app_handle.clone());
+
+            app_handle.global_shortcut().register("Control+1").unwrap();
 
             Ok(())
         })
@@ -47,7 +50,15 @@ pub fn run() {
         .plugin(tauri_plugin_dialog::init())
         .plugin(tauri_plugin_fs::init())
         .plugin(tauri_plugin_clipboard_manager::init())
-        .plugin(tauri_plugin_global_shortcut::Builder::new().build())
+        .plugin(
+            tauri_plugin_global_shortcut::Builder::new()
+                .with_handler(move |app_handle, _shortcut, _event| {
+                    app_handle
+                        .emit_to(MAIN_WINDOW_LABEL, "show-expression", ())
+                        .unwrap();
+                })
+                .build(),
+        )
         .on_window_event(|window, event| match event {
             WindowEvent::CloseRequested { api, .. } => {
                 let _ = window.hide();

@@ -4,7 +4,7 @@ import { useTauriKeyPress } from './useTauriKeyPress'
 
 export function useAudioPlayback() {
   const audio = new Audio('/assets/haha.mp3')
-  const shortcut = ref('Y')
+  const shortcut = ref('Control+Y')
 
   const playAudio = () => {
     audio.currentTime = 0 // Reset audio to start

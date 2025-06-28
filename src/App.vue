@@ -59,6 +59,10 @@ useTauriListen(LISTEN_KEY.HIDE_WINDOW, ({ payload }) => {
   hideWindow()
 })
 
+useTauriListen('show-expression', () => {
+  modelStore.setRandomExpression()
+})
+
 useEventListener('unhandledrejection', ({ reason }) => {
   const message = isString(reason) ? reason : JSON.stringify(reason)
 
